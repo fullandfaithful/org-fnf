@@ -1,12 +1,13 @@
-;; This file is part of org-fnf
-;; (c) Abraham Aguilar a.aguilar@ciencias.unam.mx
+;;; org-fnf --- A custom org-html layout.
+;;; (c) Abraham Aguilar a.aguilar@ciencias.unam.mx
+;;;
+;;; Commentary:
+;;; Simply a custom org-html layout
+
 
 
 ;;; Code:
 (require 'ox-html)
-
-(pushnew "r-grid" pp-html-other-html-elements)
-(pushnew "r-cell" pp-html-other-html-elements)
 
 (org-export-define-derived-backend 'fnf-html 'html
   :translate-alist '((inner-template . fnf-html-inner-template)
