@@ -1,0 +1,51 @@
+#+title: F&F Org-Export
+
+* Fonts being used
+
+The titles and subtitles are using the [[https://fonts.google.com/specimen/Oswald?query=oswald][Oswald]] font. The title uses the $700$ *bold* font weight, while the subtitles use the $500$ medium font weight.
+
+The body of the text uses [[https://fonts.google.com/specimen/Roboto?query=Roboto][Roboto]] font. The following is dummy text. Tertullian wrote regarding love for enemies: "Our individual, extraordinary, and perfect goodness consists in loving our enemies. To love one's friends is common practice, to love one's enemies only among Christians."
+
+Love encompasses the Islamic view of life as universal brotherhood that applies to all who hold faith. Amongst the 99 names of God (Allah), there is the name Al-Wadud, or "the Loving One," which is found in Surah . God is also referenced at the beginning of every chapter in the Qur'an as Ar-Rahman and Ar-Rahim, or the "Most Compassionate" and the "Most Merciful", indicating that nobody is more loving, compassionate and benevolent than God. The Qur'an refers to God as being "full of loving kindness."
+
+* Font Weights in Dummy Text
+
+A solitary plant, *it is green, globose,* and around 3–5 cm in diameter. The tuberous carrot-like roots grow up to 10 cm long. The areoles are sunken between the podaria and are woolly, with no spines. *The yellow* flowers occur on the stem tip and are 3-4 cm in diameter.
+
+Cintia knizei is a small alpine cactus native to the high Andes of Bolivia. The plant was discovered by Karel Kníže in 1969 at an elevation of 4,000 m (13,000 ft) near Otavi, in Potosí Department, Bolivia. /However, it was not formally described/ until 1996 by Jan Říha. The genus is named after the town of Cinti in Chuquisaca Department.
+
+* Dummy text and bullet lists
+
+The Moon is a very slightly scalene ellipsoid due to tidal stretching, with its long axis displaced 30° from facing the Earth (due to gravitational anomalies from impact basins). Its shape is more elongated than current tidal forces can account for. This 'fossil bulge' indicates that the Moon solidified when it orbited at half its current distance to the Earth, and that it is now too cold for its shape to adjust to its orbit.
+
+- "Her", by Tyler, the Creator from Goblin, 2011
+- Her (film), a 2013 American science fiction film
+- Kismet (Marvel Comics) or Her, a fictional superhero
+- Helper (Amtrak station) (sation code HER)
+- Heraklion International Airport (IATA code HER)
+
+This is a door with a dummy Shakespeare wall and text. [[https://youtu.be/ocaTt0ILPWY][She found now]]. Crystallization of this magma ocean would have created a mafic mantle from the precipitation and sinking of the minerals olivine, clinopyroxene, and orthopyroxene; after about three-quarters of the magma ocean had crystallised, lower-density plagioclase minerals could form and float into a crust atop.
+
+And this is a little maths. To typeset mathematics, org-mode uses [[https://mathjax.org][MathJax]]
+
+$$\int_{c\in C} Hom(Fc, Gc) \cong Nat(F,G)$$
+
+But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+
+* Code and Media
+
+Org-Mode can output code snippets and highlight them. The rest is dummy text.[fn:dummyfn] You come now and here I wonder. I wonder how that you found out. I wonder how that you find out. Could. You could. You. You could be here I wonder. You couldn't hide that its over. You're coming now that its over. You. You. Could. You. Could Could. You, come back, and see I welcome. I wonder how that you find out. You wonder how that you find out. You. Could. You. Could.
+
+#+begin_src common-lisp
+(defun factorial (n)
+  (if (zerop n)
+    (* n (factorial (1- n))))))
+#+end_src
+
+The concept of beauty in men is known as 'bishōnen' in Japan. Bishōnen refers to males with distinctly feminine features, physical characteristics establishing the standard of beauty in Japan and typically exhibited in their pop culture idols. A multibillion-dollar industry of Japanese Aesthetic Salons exists for this reason. However, different nations have varying male beauty ideals; Eurocentric standards for men include tallness, leanness, and muscularity; thus, these features are idolized through American media, such as in Hollywood films and magazine covers.
+
+#+html:<iframe width="560" height="315" src="https://www.youtube.com/embed/OEHP9XDYBiM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Some dog breeds have acquired traits through selective breeding that interfere with reproduction. Male French Bulldogs, for instance, are incapable of mounting the female. For many dogs of this breed, the female must be artificially inseminated to reproduce.
+
+[fn:dummyfn] This is a dummy footnote. Some  psychoanalysts, however, claim that it is wrong to convince the patient 'that their love is an illusion...that it's not you she loves. Freud was off base when he wrote that. It is you. Who else could it be?'
