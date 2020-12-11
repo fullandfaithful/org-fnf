@@ -1,0 +1,93 @@
+// This file is part of org-fnf
+// (c) - Abraham Aguilar a.aguilar@ciencias.unam.mx
+
+// Grid
+@use '../node_modules/wingcss/dist/wing.min.css';
+
+// Fonts
+//
+// font-family: 'Nanum Gothic', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Roboto Mono', monospace;
+//
+//
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Mono&display=swap');
+
+// Fonts
+
+$tf: 1.618; // Type Factor (Golden Ratio)
+$tbs: 1.6vw; // Type base size
+
+$tnorm: $tbs;
+
+$tlarge: $tf * $tnorm;
+$txlarge: $tf * $tlarge;
+$txxlarge: $tf * $txlarge;
+$txxxlarge: $tf * $txxlarge;
+
+$tsmall: (1/$tf) * $tnorm;
+$txsmall: (1/$tf) * $tsmall;
+
+// Styles
+//
+body {
+    font-size: $tnorm;
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-size: $tlarge;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h1.title {
+    font-size: $txxlarge;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+// Links
+
+a {
+    color: inherit;
+    text-decoration: none;
+    background-image: linear-gradient(120deg, magenta 0%, coral 80%, green 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.15em;
+    background-position: 0 82%;
+    transition: background-size 0.25s ease-in;
+}
+
+a:hover {
+    background-image: linear-gradient(120deg, #f5d8d1 0%, #f3e9d1 80%, #edf2d2 100%);
+    background-size: 100% 88%; color: black;
+}
+
+// footnotes
+.footref {
+    font-size: $tsmall;
+    vertical-align: super;
+}
+
+.footnum {
+    font-size: $tsmall;
+    :after {
+        content: ' ';
+        line-height: 0.8vw;
+    }
+}
+
+.footdef {
+    line-height: $tsmall;
+}
+
+.footpara {
+    display: inline;
+    font-size: $tsmall;
+    line-height: 0.8vw;
+}
