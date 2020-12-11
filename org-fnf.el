@@ -70,7 +70,7 @@ INFO is a plist holding export options"
          (format "%s" (org-export-data title info))
        "Full & Faithful"))
    "</title>\n"
-   "<link rel=\"stylesheet\" href=\"css/styles.css\" >"
+   "<link rel=\"stylesheet\" href=\"https://rawcdn.githack.com/fullandfaithful/org-fnf/7d79af5104261be71a52ed4ae6575f1768013105/css/styles.css\" >"
    (org-html--build-mathjax-config info)
    "</head>\n"
    "<body>\n"
